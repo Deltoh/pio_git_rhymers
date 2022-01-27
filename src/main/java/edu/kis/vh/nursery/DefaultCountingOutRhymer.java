@@ -5,6 +5,11 @@ public class DefaultCountingOutRhymer {
     private static final int negative = -1;
     private static final int sizeOfNumbers = 12;
     private static final int full = 11;
+
+    public int getTotal() {
+        return total;
+    }
+
     private int total = negative;
     private int[] numbers = new int[sizeOfNumbers];
 

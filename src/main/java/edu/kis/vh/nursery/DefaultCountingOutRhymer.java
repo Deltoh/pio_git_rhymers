@@ -12,6 +12,7 @@ public class DefaultCountingOutRhymer {
     private static final int full = 11;
 
     // Standard getter for the variable total
+    // TODO: method is unused, could be deleted
     public int getTotal() {
         return total;
     }

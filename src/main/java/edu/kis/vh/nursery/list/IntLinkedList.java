@@ -6,6 +6,7 @@ public class IntLinkedList {
     private Node last;
     private int i;
 
+    // TODO: method is not used
     public void push(final int i) {
         if (getLast() == null)
             setLast(new Node(i));
@@ -20,16 +21,19 @@ public class IntLinkedList {
         return getLast() == null;
     }
 
+    // TODO: method is unused, and is not useful, since it always returns false
     public boolean isFull() {
         return false;
     }
 
+    // TODO: method is not being used
     public int top() {
         if (isEmpty())
             return returnNegative;
         return getLast().value;
     }
 
+    // TODO: method is not being used
     public int pop() {
         if (isEmpty())
             return returnNegative;
@@ -46,10 +50,12 @@ public class IntLinkedList {
         this.last = last;
     }
 
+    // TODO: method is not being used
     public int getI() {
         return i;
     }
-
+    
+    // TODO: method is not being used
     public void setI(int i) {
         this.i = i;
     }
